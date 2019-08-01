@@ -2,10 +2,9 @@ package com.example.thequiz;
 
 public class TrueFalse {
     private int mQuestion;
-
     private boolean mTrueQuestion;
 
-    private TrueFalse(int question, boolean trueQuestion){
+    TrueFalse(int question, boolean trueQuestion){
         mQuestion = question;
         mTrueQuestion = trueQuestion;
     }
